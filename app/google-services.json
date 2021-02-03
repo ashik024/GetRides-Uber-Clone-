@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "263599171432",
+    "project_id": "getrides-9b3db",
+    "storage_bucket": "getrides-9b3db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263599171432:android:fa63410c6847bc171058dd",
+        "android_client_info": {
+          "package_name": "com.example.getrides"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263599171432-o343jr2l7dhvr6bg2bu77ge4nm5qh5vt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getrides",
+            "certificate_hash": "026108c214de028ede49c5ab1fa101a09c0a2c90"
+          }
+        },
+        {
+          "client_id": "263599171432-ha8rb32j9o3u2ri5p76kfbgt7h6tjbvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDW6m6xQJZ6rBWhlqfQHDUYWB4bkLK6FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263599171432-ha8rb32j9o3u2ri5p76kfbgt7h6tjbvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
