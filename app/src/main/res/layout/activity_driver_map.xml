@@ -5,13 +5,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logout"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"/>
+
+
+<!--    <Button-->
+<!--        android:id="@+id/logout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Logout"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"/>-->
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
@@ -21,6 +23,96 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".DriverMap" />
+
+    <RelativeLayout
+        android:id="@+id/relativepass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/passengerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/passengerNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_below="@+id/passengerName"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/passengerEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_below="@+id/passengerNumber"
+            android:textColor="@color/black"
+            />
+<!--        <TextView-->
+<!--            android:id="@+id/passengerDestination"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Email"-->
+<!--            android:layout_marginRight="30dp"-->
+<!--            android:layout_marginBottom="40dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:padding="5dp"-->
+<!--            android:layout_below="@+id/passengerEmailAddress"-->
+<!--            android:textColor="@color/black"-->
+<!--            />-->
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/passengerName"
+            android:layout_toLeftOf="@+id/passengerNumber"
+            android:src="@drawable/ic_baseline_local_phone_24"/>
+
+        <ImageView
+            android:id="@+id/profilePicture"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/userback"/>
+
+
+    </RelativeLayout>
 
 
 

@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">GetRide</string>
-    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_driver_map">GetRide</string>
 </resources>
